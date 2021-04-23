@@ -19,5 +19,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Book/Classes/**/*"
+  "source_files": "Book/Classes/**/*",
+  "resource_bundles": {
+    "Book": [
+      "Book/Assets/*.png"
+    ]
+  }
 }

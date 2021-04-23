@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Book'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of Book.'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,8 @@ TODO: Add long description of the pod here.
   #                     CMD
 
   s.prepare_command = 'ruby prepare_command.rb'
+  
+  s.static_framework = true
 
   s.ios.deployment_target = '9.0'
 
