@@ -1,6 +1,7 @@
 use_frameworks!
 target 'Book_Tests' do
-  pod 'Book', :path => '../'
+#  pod 'Book', :path => '../'
+  pod 'Book', :podspec => '../'
   
   
 end

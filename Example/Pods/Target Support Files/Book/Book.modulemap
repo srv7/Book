@@ -1,0 +1,6 @@
+framework module Book {
+  umbrella header "Book-umbrella.h"
+
+  export *
+  module * { export * }
+}

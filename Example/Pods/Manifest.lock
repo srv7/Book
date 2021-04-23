@@ -1,0 +1,16 @@
+PODS:
+  - Book (0.1.0)
+
+DEPENDENCIES:
+  - Book (from `../`)
+
+EXTERNAL SOURCES:
+  Book:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Book: 5fa685aa0b7cb76639a654b59385c36422f3a492
+
+PODFILE CHECKSUM: 9debba44b17ed79b964e9483c6002551dad3d183
+
+COCOAPODS: 1.10.1

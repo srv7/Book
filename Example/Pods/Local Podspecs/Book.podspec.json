@@ -1,0 +1,23 @@
+{
+  "name": "Book",
+  "version": "0.1.0",
+  "summary": "A short description of Book.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/srv7/Book",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "srv7": "bliu@che300.com"
+  },
+  "source": {
+    "git": "https://github.com/srv7/Book.git",
+    "tag": "0.1.0"
+  },
+  "prepare_command": "echo 'here is prepare_command'",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Book/Classes/**/*"
+}
