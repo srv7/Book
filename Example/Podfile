@@ -1,7 +1,8 @@
 use_frameworks!
 target 'Book_Tests' do
 #  pod 'Book', :path => '../'
-  pod 'Book', :podspec => '../'
+  # pod 'Book', :podspec => '../'
+  pod 'Book', :git => 'https://github.com/srv7/Book.git'
   
   
 end

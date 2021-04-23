@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Book'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of Book.'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/srv7/Book.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.prepare_command = <<-CMD
-  echo 'here is prepare_command'
-                      CMD
+  # s.prepare_command = <<-CMD
+  # echo 'here is prepare_command'
+  #                     CMD
+
+  s.prepare_command = 'ruby prepare_command.rb'
 
   s.ios.deployment_target = '9.0'
 

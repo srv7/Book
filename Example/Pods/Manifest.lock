@@ -2,15 +2,20 @@ PODS:
   - Book (0.1.0)
 
 DEPENDENCIES:
-  - Book (from `../`)
+  - Book (from `https://github.com/srv7/Book.git`)
 
 EXTERNAL SOURCES:
   Book:
-    :path: "../"
+    :git: https://github.com/srv7/Book.git
+
+CHECKOUT OPTIONS:
+  Book:
+    :commit: 6f2f781332db60576d0b09c348aecbdc31d75ba0
+    :git: https://github.com/srv7/Book.git
 
 SPEC CHECKSUMS:
   Book: 5fa685aa0b7cb76639a654b59385c36422f3a492
 
-PODFILE CHECKSUM: 9debba44b17ed79b964e9483c6002551dad3d183
+PODFILE CHECKSUM: 55a95bac6bc3460b1acf971c240e797b9789670b
 
 COCOAPODS: 1.10.1
