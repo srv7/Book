@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Book.h"
 
 FOUNDATION_EXPORT double BookVersionNumber;
 FOUNDATION_EXPORT const unsigned char BookVersionString[];
