@@ -1,6 +1,6 @@
 {
   "name": "Book",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of Book.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/srv7/Book",
@@ -13,9 +13,9 @@
   },
   "source": {
     "git": "https://github.com/srv7/Book.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
-  "prepare_command": "echo 'here is prepare_command'",
+  "prepare_command": "ruby prepare_command.rb",
   "platforms": {
     "ios": "9.0"
   },
